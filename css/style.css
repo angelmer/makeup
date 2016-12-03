@@ -10,3 +10,141 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: #ffffff;
+}
+.main-navigation {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background-color: #000000;
+    font-size: 0;
+    line-height: 0;
+}
+.main-navigation ul {
+    margin: 0;
+    padding: 0;
+}
+.main-navigation li {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 18px;
+     vertical-align: top;
+}
+.main-navigation a {
+    display: block;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+}
+.main-navigation a:hover{
+    background-color: rgba(255 ,255, 255, 0.5);
+}
+.main-navigation a:focus{
+    background-color: rgba(255 ,255, 255, 0.5);
+}
+.contain-sub-menu {
+    position: relative;
+}
+.sub-menu {
+    display: none;
+    width: 100%;
+    position: absolute;
+    background-color: #000000;
+    box-sizing: border-box;
+}
+.sub-menu li {
+    display: block;
+}
+.contain-sub-menu:hover .sub-menu {
+    display: block;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.slider {
+    float: left;
+    width: 65%;
+    height: 485px;
+    background-color: rgba(192, 192, 192, 0.5);
+    box-sizing: border-box;
+}
+.right-aside {
+    float: right;
+    width: 33%;
+    height: 485px;
+    background-color: rgba(192, 192, 192, 0.5);
+    box-sizing: border-box;
+}
+.photo-preview {
+    box-sizing: border-box;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.photo-preview h2 {
+    clear: both;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: 400;
+    border-bottom: 1px solid #000000;
+}
+.event {
+    box-sizing: border-box;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-bottom: 30px;
+}
+.event-item {
+    float: left;
+    height: 400px;
+    width: 23%;
+    margin-left: 2.6%;
+    background-color: rgba(192, 192, 192, 0.5);
+}
+.event-item:first-child {
+    margin-left: 0;
+}
+.about-us {
+    box-sizing: border-box;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-bottom: 30px;
+}
+.what-we-do {
+    background-color: rgba(192, 192, 192, 0.5);
+    padding: 10px;
+}
+footer {
+    box-sizing: border-box;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: #000000;
+}
+.social {
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 0;
+    line-height: 0;
+}
+.social-icon {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: rgba(192, 192, 192, 0.5);
+}
+.copyright {
+    float: right;
+    margin-top: 30px;
+    color: #ffffff;
+}
