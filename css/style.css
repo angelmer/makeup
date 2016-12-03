@@ -10,6 +10,10 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+.container {
+     padding-left: 2%;
+    padding-right: 2%;
+}
 a {
     text-decoration: none;
     color: #ffffff;
@@ -84,8 +88,6 @@ a:visited {
 }
 .photo-preview {
     box-sizing: border-box;
-    padding-left: 2%;
-    padding-right: 2%;
 }
 .photo-preview h2 {
     clear: both;
@@ -98,8 +100,6 @@ a:visited {
 }
 .event {
     box-sizing: border-box;
-    padding-left: 2%;
-    padding-right: 2%;
     margin-bottom: 30px;
 }
 .event-item {
@@ -114,8 +114,6 @@ a:visited {
 }
 .about-us {
     box-sizing: border-box;
-    padding-left: 2%;
-    padding-right: 2%;
     margin-bottom: 30px;
 }
 .what-we-do {
@@ -124,8 +122,6 @@ a:visited {
 }
 footer {
     box-sizing: border-box;
-    padding-left: 2%;
-    padding-right: 2%;
     background-color: #000000;
 }
 .social {
