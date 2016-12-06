@@ -29,6 +29,45 @@ a:visited {
     margin-bottom: 20px;
     font-size: 60px;
 }
+.social {
+    float: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 0;
+    line-height: 0;
+}
+.social-icon {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    background-color: rgba(192, 192, 192, 0.5);
+}
+.social-icon:hover {
+    box-shadow: 0px 0px 8px 0px #000000;
+}
+.vk {
+    background-image: url(../img/social.png);
+    background-repeat: no-repeat;
+    background-position: -84px -23px;
+}
+.ok {
+    background-image: url(../img/social.png);
+    background-repeat: no-repeat;
+    background-position: -388px -23px;
+}
+.insta {
+    background-image: url(../img/social.png);
+    background-repeat: no-repeat;
+    background-position: -205px -23px;
+}
+.fb {
+    background-image: url(../img/social.png);
+    background-repeat: no-repeat;
+    background-position: -145px -23px;
+}
 .main-navigation {
     margin-bottom: 30px;
     background-color: #000000;
@@ -268,48 +307,10 @@ footer {
     box-sizing: border-box;
     background-color: #000000;
 }
-.social {
-    float: right;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: 0;
-    line-height: 0;
-}
-.social-icon {
-    display: inline-block;
-    vertical-align: top;
-    margin-left: 10px;
-    width: 37px;
-    height: 37px;
-    border-radius: 50%;
-    background-color: rgba(192, 192, 192, 0.5);
-}
-.social-icon:hover {
-    box-shadow: 0px 0px 8px 0px #000000;
-}
-.vk {
-    background-image: url(../img/social.png);
-    background-repeat: no-repeat;
-    background-position: -84px -23px;
-}
-.ok {
-    background-image: url(../img/social.png);
-    background-repeat: no-repeat;
-    background-position: -388px -23px;
-}
-.insta {
-    background-image: url(../img/social.png);
-    background-repeat: no-repeat;
-    background-position: -205px -23px;
-}
-.fb {
-    background-image: url(../img/social.png);
-    background-repeat: no-repeat;
-    background-position: -145px -23px;
-}
 .copyright {
     float: right;
     margin-top: 30px;
+    margin-bottom: 30px;
     font-size: 13px;
     color: #ffffff;
 }
