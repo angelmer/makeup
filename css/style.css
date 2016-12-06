@@ -61,7 +61,7 @@ a:visited {
 .insta {
     background-image: url(../img/social.png);
     background-repeat: no-repeat;
-    background-position: -205px -23px;
+    background-position: -206px -23px;
 }
 .fb {
     background-image: url(../img/social.png);
@@ -313,6 +313,9 @@ footer {
     margin-bottom: 30px;
     font-size: 13px;
     color: #ffffff;
+}
+.price-table span {
+    font-weight: bold;
 }
 .feedback input {
     display: block;
